@@ -1,0 +1,26 @@
+Command exited with non-zero status 1
+
+
+
+Real: 0.00 0:00.00
+User: 0.00
+Sys: 0.00
+Cmdline: bash r.sh
+Avg-total-Mem-kb: 0
+Max-RSS-kb: 3840
+Sys-pgsize-kb: 4096
+Nr-voluntary-context-switches: 5
+Cmd-exit-status: 1
+Command exited with non-zero status 1
+
+
+
+Real: 0.00 0:00.00
+User: 0.00
+Sys: 0.00
+Cmdline: bash r.sh
+Avg-total-Mem-kb: 0
+Max-RSS-kb: 3840
+Sys-pgsize-kb: 4096
+Nr-voluntary-context-switches: 5
+Cmd-exit-status: 1

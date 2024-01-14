@@ -1,0 +1,3 @@
+===> MemEater reserving [1503] MB on Node 0...
+numactl --cpunodebind 0 -- bash cmd.sh
+Start: 2023年 11月 25日 星期六 22:17:10 CST

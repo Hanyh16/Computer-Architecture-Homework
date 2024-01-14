@@ -1,0 +1,84 @@
+specinvoke r4356
+ Invoked as: /home/prince/speccpu/bin/specinvoke -d /home/prince/speccpu/benchspec/CPU/502.gcc_r/run/run_base_refrate_mytest-m64.0000 -f compare.cmd -E -e compare.err -o compare.stdout
+timer ticks over every 1000 ns
+ Environment in effect for these runs:
+ # 1: SSH_AGENT_LAUNCHER=gnome-keyring
+ # 2: WAYLAND_DISPLAY=wayland-0
+ # 3: XDG_SESSION_DESKTOP=ubuntu
+ # 4: SPECDB_PWD=/home/prince/speccpu/bin
+ # 5: XMODIFIERS=@im=ibus
+ # 6: LC_PAPER=zh_CN.UTF-8
+ # 7: LESSCLOSE=/usr/bin/lesspipe %s %s
+ # 8: LC_NAME=zh_CN.UTF-8
+ # 9: LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+ #10: XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+ #11: GDMSESSION=ubuntu
+ #12: XDG_SESSION_TYPE=wayland
+ #13: _=./runcpu
+ #14: LC_TIME=zh_CN.UTF-8
+ #15: GTK_MODULES=gail:atk-bridge
+ #16: XDG_MENU_PREFIX=gnome-
+ #17: DISPLAY=:0
+ #18: USERNAME=prince
+ #19: XDG_CURRENT_DESKTOP=ubuntu:GNOME
+ #20: LIBC_FATAL_STDERR_=1
+ #21: LC_TELEPHONE=zh_CN.UTF-8
+ #22: SPEC=/home/prince/speccpu
+ #23: QT_ACCESSIBILITY=1
+ #24: HOME=/home/prince
+ #25: SHLVL=1
+ #26: SHELL=/bin/bash
+ #27: COLORTERM=truecolor
+ #28: XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+ #29: GNOME_TERMINAL_SERVICE=:1.103
+ #30: DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=cf76a510c038bf662fca07036558969a
+ #31: LC_ADDRESS=zh_CN.UTF-8
+ #32: PWD=/home/prince/speccpu/bin
+ #33: LC_NUMERIC=zh_CN.UTF-8
+ #34: GNOME_SETUP_DISPLAY=:1
+ #35: GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+ #36: XDG_RUNTIME_DIR=/run/user/1000
+ #37: LOGNAME=prince
+ #38: GNOME_SHELL_SESSION_MODE=ubuntu
+ #39: LD_LIBRARY_PATH=/usr/lib64/:/usr/lib/:/lib64
+ #40: USER=prince
+ #41: TERM=xterm-256color
+ #42: SYSTEMD_EXEC_PID=1946
+ #43: XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.F9ZAE2
+ #44: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+ #45: OLDPWD=/home/prince/speccpu
+ #46: VTE_VERSION=6800
+ #47: LC_IDENTIFICATION=zh_CN.UTF-8
+ #48: DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=cf76a510c038bf662fca07036558969a
+ #49: LANG=en_US.UTF-8
+ #50: LC_MEASUREMENT=zh_CN.UTF-8
+ #51: PATH=/home/prince/speccpu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+ #52: XDG_SESSION_CLASS=user
+ #53: LC_MONETARY=zh_CN.UTF-8
+ #54: QT_IM_MODULE=ibus
+ #55: IM_CONFIG_PHASE=1
+ #56: DBUS_STARTER_BUS_TYPE=session
+ #57: LESSOPEN=| /usr/bin/lesspipe %s
+ #58: GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/8192ecd3_bb55_4ce9_8be7_74b3db85eb80
+ #59: SESSION_MANAGER=local/vm:@/tmp/.ICE-unix/1946,unix/vm:/tmp/.ICE-unix/1946
+ #60: DESKTOP_SESSION=ubuntu
+ #61: OMP_NUM_THREADS=1
+ #62: OMP_THREAD_LIMIT=1
+running commands in compare.cmd 1 times
+runs started at		1700305081, 693350000, Sat Nov 18 18:58:01 2023
+run 1 started at	1700305081, 693369000, Sat Nov 18 18:58:01 2023
+child started: 0,	1700305081, 693375000, pid=9359, '/home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/502.gcc_r/data/refrate/output/gcc-pp.opts-O2_-finline-limit_36000_-fpic.s gcc-pp.opts-O2_-finline-limit_36000_-fpic.s > gcc-pp.opts-O2_-finline-limit_36000_-fpic.s.cmp'
+child finished: 0,	1700305083, 304136000, sec=1, nsec=610761000, pid=9359, rc=0
+child started: 0,	1700305083, 304152000, pid=9361, '/home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/502.gcc_r/data/refrate/output/gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.s gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.s > gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.s.cmp'
+child finished: 0,	1700305084, 834047000, sec=1, nsec=529895000, pid=9361, rc=0
+child started: 0,	1700305084, 834065000, pid=9363, '/home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/502.gcc_r/data/refrate/output/gcc-smaller.opts-O3_-fipa-pta.s gcc-smaller.opts-O3_-fipa-pta.s > gcc-smaller.opts-O3_-fipa-pta.s.cmp'
+child finished: 0,	1700305086, 160998000, sec=1, nsec=326933000, pid=9363, rc=0
+child started: 0,	1700305086, 161019000, pid=9365, '/home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/502.gcc_r/data/refrate/output/ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.s ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.s > ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.s.cmp'
+child finished: 0,	1700305087, 614739000, sec=1, nsec=453720000, pid=9365, rc=0
+child started: 0,	1700305087, 614760000, pid=9367, '/home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/502.gcc_r/data/refrate/output/ref32.opts-O5.s ref32.opts-O5.s > ref32.opts-O5.s.cmp'
+child finished: 0,	1700305089, 035358000, sec=1, nsec=420598000, pid=9367, rc=0
+run 1 finished at:	1700305089, 035375000, Sat Nov 18 18:58:09 2023
+run 1 elapsed time:	         7, 342006000, 7.342006000
+runs finished at	1700305089, 035400000, Sat Nov 18 18:58:09 2023
+runs elapsed time:	         7, 342050000, 7.342050000
+specinvoke exit: rc=0

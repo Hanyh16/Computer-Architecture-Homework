@@ -1,0 +1,65 @@
+-E COLORTERM truecolor
+-E DBUS_SESSION_BUS_ADDRESS 'unix:path=/run/user/1000/bus,guid=cf76a510c038bf662fca07036558969a'
+-E DBUS_STARTER_ADDRESS 'unix:path=/run/user/1000/bus,guid=cf76a510c038bf662fca07036558969a'
+-E DBUS_STARTER_BUS_TYPE session
+-E DESKTOP_SESSION ubuntu
+-E DISPLAY :0
+-E GDMSESSION ubuntu
+-E GNOME_DESKTOP_SESSION_ID this-is-deprecated
+-E GNOME_SETUP_DISPLAY :1
+-E GNOME_SHELL_SESSION_MODE ubuntu
+-E GNOME_TERMINAL_SCREEN /org/gnome/Terminal/screen/8192ecd3_bb55_4ce9_8be7_74b3db85eb80
+-E GNOME_TERMINAL_SERVICE :1.103
+-E GTK_MODULES gail:atk-bridge
+-E HOME /home/prince
+-E IM_CONFIG_PHASE 1
+-E LANG en_US.UTF-8
+-E LC_ADDRESS zh_CN.UTF-8
+-E LC_IDENTIFICATION zh_CN.UTF-8
+-E LC_MEASUREMENT zh_CN.UTF-8
+-E LC_MONETARY zh_CN.UTF-8
+-E LC_NAME zh_CN.UTF-8
+-E LC_NUMERIC zh_CN.UTF-8
+-E LC_PAPER zh_CN.UTF-8
+-E LC_TELEPHONE zh_CN.UTF-8
+-E LC_TIME zh_CN.UTF-8
+-E LD_LIBRARY_PATH /usr/lib64/:/usr/lib/:/lib64
+-E LESSCLOSE '/usr/bin/lesspipe %s %s'
+-E LESSOPEN '| /usr/bin/lesspipe %s'
+-E LIBC_FATAL_STDERR_ 1
+-E LOGNAME prince
+-E LS_COLORS 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+-E OLDPWD /home/prince/speccpu
+-E OMP_NUM_THREADS 1
+-E OMP_THREAD_LIMIT 1
+-E PATH /home/prince/speccpu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+-E QT_ACCESSIBILITY 1
+-E QT_IM_MODULE ibus
+-E SESSION_MANAGER local/vm:@/tmp/.ICE-unix/1946,unix/vm:/tmp/.ICE-unix/1946
+-E SHELL /bin/bash
+-E SPEC /home/prince/speccpu
+-E SPECDB_PWD /home/prince/speccpu/bin
+-E SSH_AGENT_LAUNCHER gnome-keyring
+-E SSH_AUTH_SOCK /run/user/1000/keyring/ssh
+-E SYSTEMD_EXEC_PID 1946
+-E TERM xterm-256color
+-E USER prince
+-E USERNAME prince
+-E VTE_VERSION 6800
+-E WAYLAND_DISPLAY wayland-0
+-E XAUTHORITY /run/user/1000/.mutter-Xwaylandauth.F9ZAE2
+-E XDG_CONFIG_DIRS /etc/xdg/xdg-ubuntu:/etc/xdg
+-E XDG_CURRENT_DESKTOP ubuntu:GNOME
+-E XDG_DATA_DIRS /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+-E XDG_MENU_PREFIX gnome-
+-E XDG_RUNTIME_DIR /run/user/1000
+-E XDG_SESSION_CLASS user
+-E XDG_SESSION_DESKTOP ubuntu
+-E XDG_SESSION_TYPE wayland
+-E XMODIFIERS '@im=ibus'
+-r
+-N C
+-C /home/prince/speccpu/benchspec/CPU/500.perlbench_r/run/run_base_refrate_mytest-m64.0000
+-k -o checkspam.2500.5.25.11.150.1.1.1.1.out.cmp /home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/500.perlbench_r/data/refrate/output/checkspam.2500.5.25.11.150.1.1.1.1.out checkspam.2500.5.25.11.150.1.1.1.1.out > checkspam.2500.5.25.11.150.1.1.1.1.out.cmp
+-k -o diffmail.4.800.10.17.19.300.out.cmp /home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/500.perlbench_r/data/refrate/output/diffmail.4.800.10.17.19.300.out diffmail.4.800.10.17.19.300.out > diffmail.4.800.10.17.19.300.out.cmp
+-k -o splitmail.6400.12.26.16.100.0.out.cmp /home/prince/speccpu/bin/specperl /home/prince/speccpu/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/prince/speccpu/benchspec/CPU/500.perlbench_r/data/refrate/output/splitmail.6400.12.26.16.100.0.out splitmail.6400.12.26.16.100.0.out > splitmail.6400.12.26.16.100.0.out.cmp

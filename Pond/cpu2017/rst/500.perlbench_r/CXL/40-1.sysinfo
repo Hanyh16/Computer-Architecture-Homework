@@ -1,0 +1,102 @@
+Linux vm 6.2.0-36-generic #37~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct  9 15:34:04 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+--------------------------
+available: 1 nodes (0)
+node 0 cpus: 0 1 2 3
+node 0 size: 3871 MB
+node 0 free: 2149 MB
+node distances:
+node   0 
+  0:  10 
+--------------------------
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      45 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             4
+On-line CPU(s) list:                0-3
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD Ryzen 9 7945HX with Radeon Graphics
+CPU family:                         25
+Model:                              97
+Thread(s) per core:                 1
+Core(s) per socket:                 2
+Socket(s):                          2
+Stepping:                           2
+BogoMIPS:                           4990.63
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero wbnoinvd arat avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid overflow_recov succor fsrm flush_l1d
+Hypervisor vendor:                  VMware
+Virtualization type:                full
+L1d cache:                          128 KiB (4 instances)
+L1i cache:                          128 KiB (4 instances)
+L2 cache:                           4 MiB (4 instances)
+L3 cache:                           64 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-3
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+--------------------------
+MemTotal:        3964480 kB
+MemFree:         2201008 kB
+MemAvailable:    2569104 kB
+Buffers:           16828 kB
+Cached:           421788 kB
+SwapCached:            0 kB
+Active:           222012 kB
+Inactive:         897120 kB
+Active(anon):       1416 kB
+Inactive(anon):   726632 kB
+Active(file):     220596 kB
+Inactive(file):   170488 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               148 kB
+Writeback:             0 kB
+AnonPages:        680376 kB
+Mapped:           356860 kB
+Shmem:             47524 kB
+KReclaimable:      46664 kB
+Slab:             180708 kB
+SReclaimable:      46664 kB
+SUnreclaim:       134044 kB
+KernelStack:       11192 kB
+PageTables:        16052 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1982240 kB
+Committed_AS:    5418224 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       63648 kB
+VmallocChunk:          0 kB
+Percpu:           102400 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      145216 kB
+DirectMap2M:     4048896 kB
+DirectMap1G:     2097152 kB

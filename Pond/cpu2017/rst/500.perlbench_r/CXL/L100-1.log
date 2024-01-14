@@ -1,0 +1,30 @@
+===> MemEater reserving [0] MB on Node 0...
+numactl --cpunodebind 0 --membind 0 -- bash cmd.sh
+Start: 2023年 11月 18日 星期六 20:22:04 CST
+End: 2023年 11月 18日 星期六 20:23:24 CST
+
+
+
+
+numactl --cpunodebind 0 --membind 0 -- bash cmd.sh
+
+#!/bin/bash
+ulimit -s unlimited
+export OMP_NUM_THREADS=1
+export OMP_STACKSIZE=122880
+./perlbench_r_base.mytest-m64 -I./lib checkspam.pl 2500 5 25 11 150 1 1 1 1 > checkspam.2500.5.25.11.150.1.1.1.1.out 2>> checkspam.2500.5.25.11.150.1.1.1.1.err
+===> MemEater reserving [0] MB on Node 0...
+numactl --cpunodebind 0 --membind 0 -- bash cmd.sh
+Start: 2023年 11月 25日 星期六 20:37:56 CST
+End: 2023年 11月 25日 星期六 20:39:16 CST
+
+
+
+
+numactl --cpunodebind 0 --membind 0 -- bash cmd.sh
+
+#!/bin/bash
+ulimit -s unlimited
+export OMP_NUM_THREADS=1
+export OMP_STACKSIZE=122880
+./perlbench_r_base.mytest-m64 -I./lib checkspam.pl 2500 5 25 11 150 1 1 1 1 > checkspam.2500.5.25.11.150.1.1.1.1.out 2>> checkspam.2500.5.25.11.150.1.1.1.1.err
